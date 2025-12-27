@@ -1,0 +1,100 @@
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://st3.depositphotos.com/4428871/13459/v/450/depositphotos_134592664-stock-illustration-crime-word-cloud.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    color: #fff; 
+}
+
+header { 
+    background: rgba(41, 128, 185, 0.8); 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+    font-size: 24px; 
+    font-weight: bold; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
+    backdrop-filter: blur(5px); 
+}
+
+.container { 
+    width: 80%; 
+    margin: 30px auto; 
+    background: rgba(255, 255, 255, 0.1); 
+    padding: 30px; 
+    border-radius: 15px; 
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); 
+    backdrop-filter: blur(10px); 
+}
+
+h1 { 
+    margin-bottom: 20px; 
+    font-size: 32px; 
+    color: #3498db; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1); 
+}
+
+.back-home-btn {
+    color: #fff;
+    text-decoration: none;
+    background: #e74c3c;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 20px 10px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: inline-block;
+}
+
+.back-home-btn:hover {
+    background: #c0392b;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.report-btn { 
+    background: #2ecc71; 
+    color: #fff; 
+    padding: 12px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: 0.3s; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+.report-btn:hover { 
+    background: #27ae60; 
+    transform: translateY(-2px); 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+}
+
+.crime-card { 
+    background: rgba(255, 255, 255, 0.2); 
+    padding: 20px; 
+    margin: 15px 0; 
+    border-left: 5px solid #e74c3c; 
+    border-radius: 10px; 
+    transition: 0.3s; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+.crime-card:hover { 
+    transform: translateX(10px); 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+}
+
+.crime-card h3 { 
+    margin-top: 0; 
+    color: #3498db; 
+}
+
+.crime-card i { 
+    margin-right: 10px; 
+    color: #e74c3c; 
+}
